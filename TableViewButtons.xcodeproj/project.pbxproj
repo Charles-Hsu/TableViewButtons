@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27251371B60E88D007F9D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27251361B60E88D007F9D35 /* AppDelegate.swift */; };
+		C27251391B60E88D007F9D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27251381B60E88D007F9D35 /* ViewController.swift */; };
+		C272513C1B60E88D007F9D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C272513A1B60E88D007F9D35 /* Main.storyboard */; };
+		C272513E1B60E88D007F9D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C272513D1B60E88D007F9D35 /* Images.xcassets */; };
+		C27251411B60E88D007F9D35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C272513F1B60E88D007F9D35 /* LaunchScreen.xib */; };
+		C272514D1B60E88D007F9D35 /* TableViewButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272514C1B60E88D007F9D35 /* TableViewButtonsTests.swift */; };
+		C27251571B60EAD4007F9D35 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27251561B60EAD4007F9D35 /* TableViewCell.swift */; };
+		C27251591B60ECF5007F9D35 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27251581B60ECF5007F9D35 /* NewViewController.swift */; };
+		C272515B1B60F98A007F9D35 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C272515A1B60F98A007F9D35 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27251471B60E88D007F9D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27251291B60E88D007F9D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27251301B60E88D007F9D35;
+			remoteInfo = TableViewButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27251311B60E88D007F9D35 /* TableViewButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27251351B60E88D007F9D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27251361B60E88D007F9D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C27251381B60E88D007F9D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C272513B1B60E88D007F9D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C272513D1B60E88D007F9D35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C27251401B60E88D007F9D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C27251461B60E88D007F9D35 /* TableViewButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C272514B1B60E88D007F9D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C272514C1B60E88D007F9D35 /* TableViewButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewButtonsTests.swift; sourceTree = "<group>"; };
+		C27251561B60EAD4007F9D35 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C27251581B60ECF5007F9D35 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		C272515A1B60F98A007F9D35 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C272512E1B60E88D007F9D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27251431B60E88D007F9D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27251281B60E88D007F9D35 = {
+			isa = PBXGroup;
+			children = (
+				C272515A1B60F98A007F9D35 /* README.md */,
+				C27251331B60E88D007F9D35 /* TableViewButtons */,
+				C27251491B60E88D007F9D35 /* TableViewButtonsTests */,
+				C27251321B60E88D007F9D35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27251321B60E88D007F9D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27251311B60E88D007F9D35 /* TableViewButtons.app */,
+				C27251461B60E88D007F9D35 /* TableViewButtonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27251331B60E88D007F9D35 /* TableViewButtons */ = {
+			isa = PBXGroup;
+			children = (
+				C27251361B60E88D007F9D35 /* AppDelegate.swift */,
+				C27251381B60E88D007F9D35 /* ViewController.swift */,
+				C27251561B60EAD4007F9D35 /* TableViewCell.swift */,
+				C27251581B60ECF5007F9D35 /* NewViewController.swift */,
+				C272513A1B60E88D007F9D35 /* Main.storyboard */,
+				C272513D1B60E88D007F9D35 /* Images.xcassets */,
+				C272513F1B60E88D007F9D35 /* LaunchScreen.xib */,
+				C27251341B60E88D007F9D35 /* Supporting Files */,
+			);
+			path = TableViewButtons;
+			sourceTree = "<group>";
+		};
+		C27251341B60E88D007F9D35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27251351B60E88D007F9D35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C27251491B60E88D007F9D35 /* TableViewButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C272514C1B60E88D007F9D35 /* TableViewButtonsTests.swift */,
+				C272514A1B60E88D007F9D35 /* Supporting Files */,
+			);
+			path = TableViewButtonsTests;
+			sourceTree = "<group>";
+		};
+		C272514A1B60E88D007F9D35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C272514B1B60E88D007F9D35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27251301B60E88D007F9D35 /* TableViewButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27251501B60E88D007F9D35 /* Build configuration list for PBXNativeTarget "TableViewButtons" */;
+			buildPhases = (
+				C272512D1B60E88D007F9D35 /* Sources */,
+				C272512E1B60E88D007F9D35 /* Frameworks */,
+				C272512F1B60E88D007F9D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewButtons;
+			productName = TableViewButtons;
+			productReference = C27251311B60E88D007F9D35 /* TableViewButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27251451B60E88D007F9D35 /* TableViewButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27251531B60E88D007F9D35 /* Build configuration list for PBXNativeTarget "TableViewButtonsTests" */;
+			buildPhases = (
+				C27251421B60E88D007F9D35 /* Sources */,
+				C27251431B60E88D007F9D35 /* Frameworks */,
+				C27251441B60E88D007F9D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27251481B60E88D007F9D35 /* PBXTargetDependency */,
+			);
+			name = TableViewButtonsTests;
+			productName = TableViewButtonsTests;
+			productReference = C27251461B60E88D007F9D35 /* TableViewButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27251291B60E88D007F9D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Pro Andy";
+				TargetAttributes = {
+					C27251301B60E88D007F9D35 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C27251451B60E88D007F9D35 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C27251301B60E88D007F9D35;
+					};
+				};
+			};
+			buildConfigurationList = C272512C1B60E88D007F9D35 /* Build configuration list for PBXProject "TableViewButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27251281B60E88D007F9D35;
+			productRefGroup = C27251321B60E88D007F9D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27251301B60E88D007F9D35 /* TableViewButtons */,
+				C27251451B60E88D007F9D35 /* TableViewButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C272512F1B60E88D007F9D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C272513C1B60E88D007F9D35 /* Main.storyboard in Resources */,
+				C27251411B60E88D007F9D35 /* LaunchScreen.xib in Resources */,
+				C272513E1B60E88D007F9D35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27251441B60E88D007F9D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C272512D1B60E88D007F9D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27251571B60EAD4007F9D35 /* TableViewCell.swift in Sources */,
+				C27251391B60E88D007F9D35 /* ViewController.swift in Sources */,
+				C272515B1B60F98A007F9D35 /* README.md in Sources */,
+				C27251371B60E88D007F9D35 /* AppDelegate.swift in Sources */,
+				C27251591B60ECF5007F9D35 /* NewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27251421B60E88D007F9D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C272514D1B60E88D007F9D35 /* TableViewButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27251481B60E88D007F9D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27251301B60E88D007F9D35 /* TableViewButtons */;
+			targetProxy = C27251471B60E88D007F9D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C272513A1B60E88D007F9D35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C272513B1B60E88D007F9D35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C272513F1B60E88D007F9D35 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27251401B60E88D007F9D35 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C272514E1B60E88D007F9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C272514F1B60E88D007F9D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27251511B60E88D007F9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C27251521B60E88D007F9D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C27251541B60E88D007F9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TableViewButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewButtons.app/TableViewButtons";
+			};
+			name = Debug;
+		};
+		C27251551B60E88D007F9D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TableViewButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewButtons.app/TableViewButtons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C272512C1B60E88D007F9D35 /* Build configuration list for PBXProject "TableViewButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C272514E1B60E88D007F9D35 /* Debug */,
+				C272514F1B60E88D007F9D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27251501B60E88D007F9D35 /* Build configuration list for PBXNativeTarget "TableViewButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27251511B60E88D007F9D35 /* Debug */,
+				C27251521B60E88D007F9D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27251531B60E88D007F9D35 /* Build configuration list for PBXNativeTarget "TableViewButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27251541B60E88D007F9D35 /* Debug */,
+				C27251551B60E88D007F9D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27251291B60E88D007F9D35 /* Project object */;
+}
